@@ -1,32 +1,21 @@
-[TOC]
+# Notes on Structural Econonmetric Modeling
 
-#### Disabled options
+## What Is Structural Econonmetric Model?
+*Structural econometric models* combine explicit **economic theories** with **statistical models**
+- Economic theory is used to develop mathematical statements about how a set of observable "endogenous" variables, y, are related to another set of observable "explanatory" variables, x. 
 
-- TeX (Based on KaTeX);
-- Emoji;
-- Task lists;
-- HTML tags decode;
-- Flowchart and Sequence Diagram;
 
-#### Editor.md directory
 
-    editor.md/
-            lib/
-            css/
-            scss/
-            tests/
-            fonts/
-            images/
-            plugins/
-            examples/
-            languages/     
-            editormd.js
-            ...
+## Classic Models
+- Discrete choice model
+  - Logit
+  - 
 
-```html
-<!-- English -->
-<script src="../dist/js/languages/en.js"></script>
 
-<!-- 繁體中文 -->
-<script src="../dist/js/languages/zh-tw.js"></script>
-```
+## Common Methods of Estimation
+- GMM
+- 
+
+## References
+- https://github.com/woerman/ResEcon703
+- 
