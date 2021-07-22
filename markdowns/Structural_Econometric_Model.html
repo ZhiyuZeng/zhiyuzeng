@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Structural_Econometric_Model</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="notes-on-structural-econometric-modeling-to-be-continued">Notes on Structural Econometric Modeling (to Be Continued)</h1>
+<h2 id="what-are-structural-econometric-models">What Are Structural Econometric Models?</h2>
+<p><em>Structural econometric models</em> combine explicit <strong>economic theories</strong> with <strong>statistical models</strong></p>
+<ul>
+<li>Economic theories are used to develop mathematical statements about how a set of observable “endogenous” variables, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span></span></span></span></span>, are related to another set of observable “explanatory” variables, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">x</span></span></span></span></span>.
+<ul>
+<li>Eg., <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>ξ</mi><mo separator="true">,</mo><mi mathvariant="normal">Θ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">y = g(x, \xi, \Theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">g</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.04601em;">ξ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">Θ</span><span class="mclose">)</span></span></span></span></span> , or <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>≥</mo><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>ξ</mi><mo separator="true">,</mo><mi mathvariant="normal">Θ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">y \geq g(x, \xi, \Theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83041em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">g</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.04601em;">ξ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">Θ</span><span class="mclose">)</span></span></span></span></span>, where <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false">(</mo><mo>⋅</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">g(\cdot)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">g</span><span class="mopen">(</span><span class="mord">⋅</span><span class="mclose">)</span></span></span></span></span> is a known function and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Θ</mi></mrow><annotation encoding="application/x-tex">\Theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord">Θ</span></span></span></span></span> is a set of unknown parameters or functions.</li>
+</ul>
+</li>
+<li>Statistical models offer statistical assumptions, and estimation equations.
+<ul>
+<li>Eg., assume the joint distribution of <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo separator="true">,</mo><mi>ξ</mi></mrow><annotation encoding="application/x-tex">x, \xi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.04601em;">ξ</span></span></span></span></span> and other unobservables</li>
+<li>Eg., maximize the likelihood or moments.</li>
+</ul>
+</li>
+</ul>
+<h3 id="make-a-comparison-with-nonstructural-econometric-models">Make a Comparison With Nonstructural Econometric Models</h3>
+<ul>
+<li>Nonstructural econometric models <strong>may not use</strong> formal statistical models.
+<ul>
+<li>Eg., measurement studies that focus on constructing and summarizing data.
+<ul>
+<li>Labor force participation and unemployment rates.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Nonstructural econometric models <strong>may use</strong> formal statistical models.
+<ul>
+<li>E.g., autoregressive conditional volatility models.
+<ul>
+<li>It was used to document an inverse relationship between United Kingdom unemployment rates and changes in wage rates.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Nonstructural econometric models ultimately estimate characteristics of  the joint population density of <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">x</span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span></span></span></span></span>, i.e., <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x, y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span><span class="mclose">)</span></span></span></span></span>.
+<ul>
+<li>E.g., the best linear predictor (<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi><mi>L</mi><mi>P</mi><mo stretchy="false">(</mo><mi>y</mi><mi mathvariant="normal">∣</mi><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">BLP(y | x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mord mathnormal">L</span><span class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span><span class="mord">∣</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span></span>) of <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.03588em;">y</span></span></span></span></span> given <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">x</span></span></span></span></span>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="classic-models">Classic Models</h2>
+<ul>
+<li>Logit model</li>
+<li>Mixed logit model</li>
+<li>Generalized extreme value models</li>
+</ul>
+<h2 id="common-methods-of-estimation">Common Methods of Estimation</h2>
+<ul>
+<li>Maximum likelihood estimation</li>
+<li>Generalized method of moments</li>
+<li>Simulation-based estimation</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>Reiss, Peter C., and Frank A. Wolak. “Structural econometric modeling: Rationales and examples from industrial organization.” Handbook of Econometrics 6 (2007): 4277-4415. <a href="https://web.stanford.edu/~preiss/makeit.pdf">https://web.stanford.edu/~preiss/makeit.pdf</a></li>
+<li><a href="https://github.com/woerman/ResEcon703">https://github.com/woerman/ResEcon703</a></li>
+</ul>
+</div>
+</body>
+
+</html>
